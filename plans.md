@@ -52,5 +52,5 @@ Input arguments are obvious.
 for a qualitative analysis,
 or an actual list of phonemes
 that might be created by a `(create-phoneme-list IPA-plus-phoneme-class)`.
-`syllable-structure` can be `:simple` or `:complex`
-or maybe 
+`syllable-structure` can be `:simple`, `:complex`
+or a string like `"(C)(C)V"` or a list like `((OPTIONAL C C) V (OPTIONAL C C n))`.

@@ -1,0 +1,27 @@
+((:place
+  ("blb" . :bilabial)
+  ("lbd" . :labiodental)
+  ("dnt" . :dental)
+  ("alv" . :alveolar)
+  ("pla" . :post-alveolar)
+  ("rfx" . :retroflex)
+  ("pal" . :palatal)
+  ("lbv" . :labio-velar)
+  ("vel" . :velar)
+  ("uvl" . :uvular)
+  ("phr" . :pharyngeal)
+  ("glt" . :glottal))
+ (:manner
+  ("stp" . :stop)
+  ("nas" . :nasal)
+  ("trl" . :trill)
+  ("frc" . :fricative)
+  ("apr" . :approximant)
+  ("flp" . :flap))
+ (:binary-properties
+  ("vls" :voice . nil)
+  ("vcd" :voice . t)
+  ("lat" :lateral-release . t))
+ (:additional-properties
+  ("vel" :velarized . t)
+  ("pal" :palatalised . t)))

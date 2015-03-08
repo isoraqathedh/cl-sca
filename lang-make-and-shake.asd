@@ -5,5 +5,6 @@
 (defsystem lang-make-and-shake
   :name "Language Make and Shake"
   :serial t
-  :components ((:file "IPA-tools"))
+  :components ((:module "IPA-tools"
+                :components ((:file "IPA-tools"))))
   :depends-on (:alexandria :split-sequence))

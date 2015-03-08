@@ -91,3 +91,14 @@ a	{low,fnt,unr,vwl}
 ɶ	{low,fnt,rnd,vwl}
 ɑ	{low,bck,unr,vwl}
 ɒ	{low,bck,rnd,vwl}
+ʘ	{blb,clk}
+ǀ	{dnt,clk}
+!	{alv,clk}
+ǂ	{pla,clk}
+ǁ	{alv,lat,clk}
+ɓ	{blb,imp,vcd}
+ɗ	{dnt-alv,imp,vcd}
+ʛ	{uvl,imp,vcd}
+ʠ	{uvl,imp,vls}
+ɠ	{vel,imp,vcd}
+ʄ	{pal,imp,vcd}

@@ -5,8 +5,15 @@
 
 (in-package :IPA-tools)
 
+;;; Phoneme class and associated properties.
+
 (defclass phoneme ()
   (properties))
+
+(defgeneric phoneme-properties (phoneme)
+  (:documentation "Retrieves *all* properties in a phoneme.")
+  (:method ((phoneme phoneme))
+    (hash-table-plist (slot-value phoneme 'properties))))
 
 (defgeneric get-phoneme-property (property phoneme)
   (:documentation "Gets the property of a phoneme.")
@@ -77,3 +84,7 @@
           while i
           collect (parse-IPA-description i)))
   "A list of characters defined by the IPA, expressed as phoneme objects.")
+
+;;; External package access
+#| After loading the data, 
+   we now allow other packages to use the data freely. |#
